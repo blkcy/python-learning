@@ -1,7 +1,5 @@
-inventory = {}
-
 import json
-
+# 1. 尝试读取存档
 try:
     # 尝试执行这里的代码
     with open("inventory.txt", "r", encoding="utf-8") as f:
