@@ -5,7 +5,7 @@ try:
     conn = pymysql.connect(
         host='172.17.52.2',
         user='root',
-        password='',
+        password='blkcy0123',
         database='abyss',  # 直接指定使用这个库
         charset='utf8mb4'
     )
