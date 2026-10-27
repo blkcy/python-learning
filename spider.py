@@ -29,3 +29,5 @@ if response.status_code == 200:
         print("-" * 30)
 else:
     print("潜入失败，状态码：", response.status_code)
+# 在文件最末尾加上这行
+input("\n抓取完毕，按回车键退出...")
